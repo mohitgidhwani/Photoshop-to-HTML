@@ -1,0 +1,654 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+/* first page start */
+
+.nav {
+
+
+    background: #daac00;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+
+
+}
+
+.nav ul li {
+
+    margin-left: 40px;
+    display: inline;
+
+    padding: 12px 15px;
+    transition: .5s;
+}
+
+.nav ul li a:hover {
+    background: #00bec9;
+    border-radius: 5px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 12px 15px;
+    transition: .45s;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+/* .nav ul li button:hover {
+    background: #00bec9;
+} */
+
+ul li input,
+button {
+    padding: 12px;
+    border: none;
+    outline: none;
+    background: #fcc302;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .20);
+}
+
+.ul li input,
+button:focus {
+    border: none;
+}
+
+
+ul li button {
+    width: 60px;
+    background: #00bec9;
+    margin-left: -5px;
+    margin-right: 50px;
+
+}
+
+ul li button:hover {
+    background: none;
+}
+
+
+
+
+
+
+
+ul li i {
+    font-size: 15px;
+}
+
+.nav .logo {
+    padding: 10px 50px;
+}
+
+.content {
+
+    margin: auto;
+    background: #fcc302;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    padding: 50px 0;
+}
+
+.content button {
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-right: 20px;
+    box-shadow: none;
+}
+
+.dogtext {
+    width: 300px;
+
+}
+
+.dogtext p {
+    width: 400px;
+    padding-top: 15px;
+}
+
+.content .dogtext button {
+    margin-top: 20px;
+    color: white;
+    font-weight: 500;
+    transition: .3s;
+}
+
+.content .dogtext button:hover {
+    background: #00bec9;
+}
+
+.dogtext h1 {
+    width: 400px;
+    font-size: 40px;
+}
+
+.content .dogimage img {
+    height: 400px;
+
+
+}
+
+/* first page end */
+
+.second-page {
+    background: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* background: lightblue; */
+    align-items: center;
+    padding: 100px 100px;
+}
+
+.second {
+    margin: 100px 80px;
+
+}
+
+.second h1 {
+
+    width: 400px;
+}
+
+
+.second p {
+    width: 400px;
+    padding-top: 15px;
+}
+
+.second-page .vid-img img {
+    height: 300px;
+    margin-right: 200px;
+    border: 2px solid black;
+
+}
+
+.vid-img {
+    position: relative;
+    z-index: 2;
+}
+
+.ply-btn {
+    position: absolute;
+    top: 115px;
+    left: 115px;
+    z-index: 3;
+    font-size: 30px;
+    width: 70px;
+    height: 70px;
+    color: #fcc302;
+    background: white;
+    text-align: center;
+    line-height: 70px;
+    border-radius: 100%;
+
+}
+
+.vid-img::after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: -20px;
+    height: 150px;
+    width: 150px;
+    background: #fcc302;
+    z-index: -1;
+}
+
+.front-img {
+    height: 300px;
+    width: 312px;
+    background: rgba(243, 193, 12, 0.63);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+
+.second-page button {
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: none;
+    color: white;
+    transition: .3s;
+}
+
+.second-page button:hover {
+    scale: 1.2;
+}
+
+
+/* second page end  */
+
+/* third page start */
+
+
+.third-page {
+    color: white;
+    background: #fcc302;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 270px;
+
+}
+
+.third-page p {
+    width: 400px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.doc-img {
+    margin-top: 50px;
+    height: 300px;
+    width: 300px;
+    border: 4px solid white;
+
+}
+
+.doc-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.doc-img p {
+    width: 220px;
+}
+
+.doc-img h3 {
+    font-size: 25px;
+}
+
+.doc-img h3,
+p {
+    margin-top: 30px;
+}
+
+
+.third-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+}
+
+/* price-sc start */
+
+.price-sc {
+    width: 100%;
+    background: #fcc302;
+}
+
+.price {
+    width: 80%;
+    margin: auto;
+    /* background: lightcoral; */
+
+}
+
+.price h1 {
+    font-size: 75px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.price p {
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.dog-price {
+    /* border: 1px solid black; */
+    width: 300px;
+    text-align: center;
+}
+
+.dog-price h3 {
+    padding: 20px 0;
+    font-size: 25px;
+    color: #ffffff;
+
+}
+
+.dog-price span {
+    text-decoration: line-through;
+    padding: 0 10px;
+}
+
+.dog-price button{
+    background: #00bec9;
+    border: none;
+    width: 150px;
+    border-radius: 100px;
+    color: #ffffff;
+    font-size: 16px;
+    box-shadow: none;
+}
+
+
+.first-dog {
+    height: 300px;
+    width: 300px;
+    background: url(/images/7033095_3487424_03.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.second-dog{
+    background: url(/images/7033095_3487424_06\(1\).png);
+    background-size: cover;
+    background-position: center;
+}
+
+.third-dog{
+    background: url(/images/white-dog.png);
+    background-size: cover;
+    background-position: center; 
+}
+
+.line-dog{
+    margin-top: 50px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+}
+
+
+/* price-sc end */
+
+
+/* docs-sc start */
+
+
+.docs-sc{
+    width: 100%;
+    background: white;
+   
+}
+
+.docs-sc h1{
+     font-size: 75px;
+   
+    text-align: center; 
+}
+
+.docs-sc p {
+    font-size: 16px;
+   ;
+    text-align: center;
+}
+
+.docs{
+    padding-top: 50px;
+    width: 80%;
+    margin: 50px auto;
+    /* background: lightcoral; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center ;
+    gap: 100px;
+}
+
+.first-doc{
+  height: 300px;
+  width: 300px;
+  background: url(/images/doc-1.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.second-doc{
+    background: url(/images/doc-2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.thrid-doc{
+    background: url(/images/doc-3.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.line-doc h3{
+    padding: 10px 0 0 0;
+}
+
+.line-doc{
+    text-align: center;
+    width: 300px;
+    /* border: 1px solid black; */
+    padding-bottom: 100px;
+}
+
+.line-doc p{
+    margin: 0;
+    padding: 0 0 10px 0;
+}
+
+.line-doc span i{
+    padding: 8px;
+    margin: 0 2px;
+    background: #daac00;
+    color: white;
+    border-radius: 50%;
+}
+    
+/* docs-sc end */
+
+/* med-sc start */
+
+.med-sc{
+    background: url(/images/7033095_3487424_02\(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 200px;
+    position: relative;
+    z-index: 1;
+}
+
+.med-sc::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(216, 168, 10, .8);
+    z-index: -1;
+}
+
+.med{
+    width: 80%;
+    margin: auto;
+    /* background: lightcoral; */
+}
+
+.first-med{
+    /* height: 300px; */
+    /* width: 300px; */
+    /* background: lightgreen; */
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+
+}
+
+.med-icon{
+    padding: 50px;
+    text-align: center;
+    color: white;
+}
+
+.med-icon h2{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+
+/* med-sc end */
+
+/* recent-sc start */
+.recent-sc{
+    margin: 50px auto;
+   
+    width: 80%;
+}
+
+.recent-sc h1{
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+}
+.recent-sc p{
+    font-size: 18px;
+    text-align: center;
+}
+
+.recent{
+    margin-top: 100px;
+    width: 350px;
+    text-align: left;
+    border: 1px solid rgba(0, 0, 0, .20);
+    /* padding: 5px; */
+    transition: .45s;
+}
+
+.recent:hover{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .20);
+    border: 1px solid transparent;
+}
+
+.recent p{
+    text-align: left;
+    
+}
+
+.first-rec{
+    height: 300px;
+    width: 350px;
+    background: url(/images/doc-dog1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.line-rec{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+}    
+
+.recent h4, span ,h6 , p{
+    padding: 20px;
+}
+
+.recent span{
+    color: #00bec9;
+}
+
+.recent h6{
+    color: #00bec9;
+}
+
+.second-rec{
+    background: url(/images/doc-dog2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.thrid-rec{
+    background: url(/images/doc-dog3.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* recent-sc end */
+
+
+.footer{
+    width: 100%;
+    background: #343434;
+}
+
+.inner-footer{
+    width: 80%;
+    margin: auto;
+    padding: 100px;
+    color: white;
+    
+}
+
+.inner-footer h1{
+    padding: 5px 0;
+    font-weight: 500;
+}
+
+.inner-footer p {
+    padding: 10px 0;
+    margin: 0;
+}
+
+.footer-line{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* gap: 200px; */
+}
+
+.last-about{
+    text-align: right;
+}
+
+.about input{
+    background: #fcc302;
+    height: 60px;
+    width: 350px;
+    border: none;
+}
+
+.about button{
+    height: 60px;
+    border: none;
+    background: #00bec9;
+    width: 100px;
+}
+
+
+
+
+    
+
+
